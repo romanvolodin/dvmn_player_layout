@@ -11,6 +11,7 @@
 }
 
 .player-control-panel {
+  display: flex;
   background-color: black;
 }
 
@@ -23,4 +24,8 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
+}
+
+.spacer {
+  flex-grow: 1;
 }
