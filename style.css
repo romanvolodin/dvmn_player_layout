@@ -15,6 +15,7 @@
 }
 
 .player-button {
+  font-size: 1.25rem;
   border: 0;
   cursor: pointer;
   color: white;
