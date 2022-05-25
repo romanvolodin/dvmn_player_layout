@@ -1,3 +1,9 @@
+.player {
+  width: 800px;
+  height: 600px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
 .player-control-panel {
   background-color: black;
 }
