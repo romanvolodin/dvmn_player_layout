@@ -1,0 +1,10 @@
+.control-panel {
+  background-color: black;
+}
+
+.control-panel button {
+  border: 0;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+}
