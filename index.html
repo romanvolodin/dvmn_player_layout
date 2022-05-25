@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dvmn Video Player</title>
+</head>
+
+<body>
+  <div id="player" style="width: 800px; height: 600px;">
+    <div class="js-video-container" style="width: 100%; height: 100%"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
+  <script src="player.js"></script>
+
+  <script type="text/javascript">
+    createPlayer({
+      elementId: "player",
+      src: "https://dvmn.org/media/filer_public/78/db/78db3456-3fd3-4504-9ed9-d2d1fd843c0b/highest_peak.mp4"
+    });
+  </script>
+</body>
+
+</html>
