@@ -4,7 +4,7 @@
 
 Посмотреть вживую: <https://romanvolodin.github.io/dvmn_player_layout/>
 
-![Скриншот видеоплеера](./screenshots/video_player_screenshot.png)
+![Скриншот видеоплеера](./screenshots/video-player-screenshot.jpg)
 
 ## Как развернуть dev версию
 
