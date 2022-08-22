@@ -74,7 +74,7 @@
 .progress-indicator {
   background-color: #f8104d;
   height: 6px;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px;
 }
 
 .progress-handle {
@@ -85,4 +85,11 @@
   border-radius: 50%;
   border: 3px solid white;
   box-shadow:  0 0 5px 5px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+.progress-bar:hover .progress-handle {
+  opacity: 100%;
 }
