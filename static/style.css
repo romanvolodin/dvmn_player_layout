@@ -36,12 +36,6 @@
   background-color: transparent;
 }
 
-.toggle-play {}
-
-.toggle-mute {}
-
-.toggle-fullscreen {}
-
 .progress-bar {
   display: flex;
   align-items: center;
