@@ -19,13 +19,14 @@
 .player-control-panel {
   display: flex;
   background-color: black;
+  align-items: center;
+  height: 48px;
 }
 
 .player-button {
   box-sizing: border-box;
   font-size: 1.25rem;
-  width: 20px;
-  height: 20px;
+  width: 36px;
   border: 0;
   padding: 0;
   cursor: pointer;
@@ -34,31 +35,19 @@
 }
 
 .toggle-play {
-  margin-left: 7px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 13px;
 }
 
 .toggle-mute {
   font-size: 1rem;
-  margin-left: 8px;
-  margin-top: 11px;
 }
 
 .toggle-fullscreen {
-  margin-top: 10px;
-  margin-right: 9px;
 }
 
 .current-time {
-  margin-left: 10px;
-  margin-top: 13px;
 }
 
 .duration {
-  margin-top: 13px;
-  margin-right: 9px;
 }
 
 .progress-bar {
@@ -66,10 +55,6 @@
   align-items: center;
   flex-grow: 1;
   height: 6px;
-  margin-top: 19px;
-  margin-left: 9px;
-  margin-right: 9px;
-
 }
 
 .progress-indicator {
