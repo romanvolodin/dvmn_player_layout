@@ -21,6 +21,7 @@
   background-color: black;
   align-items: center;
   height: 48px;
+  font-size: 1rem;
 }
 
 .player-button {
@@ -37,15 +38,9 @@
 
 .toggle-play {}
 
-.toggle-mute {
-  font-size: 1rem;
-}
+.toggle-mute {}
 
 .toggle-fullscreen {}
-
-.current-time {}
-
-.duration {}
 
 .progress-bar {
   display: flex;
